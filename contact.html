@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Wendy's World ⍟ Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="con.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body onload="pageLoaded()">
+    <div class="content">
+      <img id="logo" src="Logo.jpg">
+      <h1 id="mn">Wendolyn Quartey</h1>
+      <audio autoplay loop>
+          <source src="Chill Lo-fi.mp3" type="audio/mpeg"/>
+      </audio>
+      <br>
+      <div class="navbar">
+        <button><a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a></button>
+        <button><a href="snapshot.html"><i class="fa fa-fw fa-image"></i> Gallery</a></button>
+      </div>
+      <br>
+      <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Me</h2>
+          <p>Hope you had fun in my world please leave a message:</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="https://i.postimg.cc/HW8VpF55/bw.jpg" style="width:100%">
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer>
+      <p>Follow Me:</p>
+      <a id="icon" href="https://www.instagram.com/wendy_wenxy/"><i class="fa fa-fw fa-instagram"></i></a>
+      <a id="icon" href="mailto: itzzwendy50@gmail.com"><i class="fa fa-fw fa-envelope"></i></a>
+      </footer> 
+    </div>
+  </body>
+</html>
